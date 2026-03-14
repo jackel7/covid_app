@@ -1,0 +1,36 @@
+name: covid_app
+description: "A new Flutter project for Covid-19 tracking."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Tutorial Dependencies (Updated for modern Flutter)
+  http: ^1.1.0
+  animated_text_kit: ^4.2.2
+  pie_chart: ^5.4.0
+  flutter_spinkit: ^5.2.0
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Modern lints for cleaner code
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset configuration
+  assets:
+    - images/virus.png
